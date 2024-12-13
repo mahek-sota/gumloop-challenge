@@ -1,10 +1,22 @@
-import type { Edge, EdgeTypes } from '@xyflow/react';
+import type { Edge, EdgeTypes } from "@xyflow/react";
 
-export const initialEdges: Edge[] = [
-  { id: 'step1-step2', source: 'step1', target: 'step2', animated: true },
-  { id: 'step2-step3', source: 'step2', target: 'step3', animated: true },
-];
+export const initialEdges: Edge[] = []; // Start with no edges initially
 
 export const edgeTypes = {
-  // Add your custom edge types here!
+  // Placeholder for custom edge types
 } satisfies EdgeTypes;
+
+// Utility function to create dynamic edges
+export const createDynamicEdge = (
+  id: string,
+  source: string,
+  target: string,
+  color: string = "blue"
+): Edge => ({
+  id,
+  source,
+  target,
+  animated: true,
+  type: "smoothstep",
+  style: { stroke: color },
+});

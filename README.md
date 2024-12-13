@@ -1,31 +1,35 @@
-![UI Preview](public/images/ui_preview.png)
+## Gumloop Challenge
 
-# Gumloop Coding Challenge
+### Simulated a Three-Step Process
+- Inspired by work from **Gmloop**.
+- Implemented a three-step workflow:
+  1. **User Input**: Selecting a news category via a modal.
+  2. **Processing**: Fetching and summarizing news using an LLM model.
+  3. **Output**: Displaying summarized news on the front end.
 
-👋
+### Features Implemented
+- **News Summarization**:
+  - Fetched news articles dynamically based on user-selected categories.
+  - Summarized news using a pretrained **LLM model** (`facebook/bart-large-cnn`).
 
-This is an open-ended challenge. The general goal is to make the flow do something useful when you click the 'Run Flow' button. It's totally up to you how simple or complex you want to make it.
+- **UI Improvements**:
+  - Added modals for user interactions:
+    - Welcome modal for initial information.
+    - Category selection modal.
+  - Improved workflow visualization with **dynamically generated edges** between nodes.
 
-Feel free to set things up however you want. Honestly feel free to not even use this repo and start from scratch if you'd like.
+### Workflow Visualization
+- **Dynamic Edges**:
+  - Nodes and edges are generated dynamically based on user actions:
+    - `a → c`: Created after category submission (Select News → Fetching News).
+    - `c → d`: Created after successful data fetch and display (Fetching News → News Displayed).
+  - Edges reset automatically when the display panel is closed for a clean interface.
 
-Also check out [react flow here](https://reactflow.dev/), it's an awesome project.
+### Summary
+This update combines backend processing (news extraction and summarization) with an enhanced front-end user experience using dynamic edges and interactive modals.
 
-## Getting Started
+---
 
-1. Clone this repository
-
-2. Install dependencies:
-
-```bash
-npm install # or `pnpm install` or `yarn install`
-```
-
-3. Start the development server:
-
-```bash
-npm run dev
-```
-
-## Submission
-
-Include a link to your repo in your submission or give https://github.com/rbehal access. Email us at founders@gumloop.com if you have any issues.
+## Developer Information
+- **Name:** Mahek Sota  
+- **Email:** maheksota@example.com  
