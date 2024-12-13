@@ -1,7 +1,7 @@
 ## Gumloop Challenge
 
 ### Simulated a Three-Step Process
-- Inspired by work from **Gmloop**.
+- Inspired by work from **Gumloop**.
 - Implemented a three-step workflow:
   1. **User Input**: Selecting a news category via a modal.
   2. **Processing**: Fetching and summarizing news using an LLM model.
