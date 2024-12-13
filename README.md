@@ -24,6 +24,31 @@
     - `a → c`: Created after category submission (Select News → Fetching News).
     - `c → d`: Created after successful data fetch and display (Fetching News → News Displayed).
   - Edges reset automatically when the display panel is closed for a clean interface.
+  
+## **Instructions to Run the Project**
+
+### **1. Clone the Repository**
+Run the following command to clone the repository locally:
+```
+git clone https://github.com/mahek-sota/gumloop-challenge.git
+```
+
+### **2. Navigate to the Project Folder**
+Navigate to the project folder:
+``` 
+cd gumloop-challenge
+```
+### **3. Navigate to the Project Folder**
+Run the Backend Server:
+```
+python app.py
+```
+### **4. Navigate to the Project Folder**
+Run the Frontend App
+```
+npm install
+npm run dev
+```
 
 ### Summary
 This update combines backend processing (news extraction and summarization) with an enhanced front-end user experience using dynamic edges and interactive modals.
