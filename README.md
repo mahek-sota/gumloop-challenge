@@ -1,7 +1,7 @@
 ## Gumloop Challenge
 
 ### Simulated a Three-Step Process
-- Inspired by work from **Gumloop**.
+- Inspired by **Gumloop's approach to simplifying AI-driven automation**, I developed a three-step process that allows users to select a news category, fetch and summarize relevant articles using a **Large Language Model (LLM)**, and display the summarized content on the front end. This method aligns with **Gumloop's vision of making AI accessible and user-friendly**.
 - Implemented a three-step workflow:
   1. **User Input**: Selecting a news category via a modal.
   2. **Processing**: Fetching and summarising news using an LLM model.
@@ -44,7 +44,7 @@ Run the Backend Server:
 python app.py
 ```
 ### **4. Navigate to the Project Folder**
-Run the Frontend App
+Run the Frontend App:
 ```
 npm install
 npm run dev
