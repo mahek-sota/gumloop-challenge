@@ -4,12 +4,12 @@
 - Inspired by work from **Gumloop**.
 - Implemented a three-step workflow:
   1. **User Input**: Selecting a news category via a modal.
-  2. **Processing**: Fetching and summarizing news using an LLM model.
+  2. **Processing**: Fetching and summarising news using an LLM model.
   3. **Output**: Displaying summarized news on the front end.
 
 ### Features Implemented
 - **News Summarization**:
-  - Fetched news articles dynamically based on user-selected categories.
+  - Fetched news articles (using newsapi) dynamically based on user-selected categories.
   - Summarized news using a pretrained **LLM model** (`facebook/bart-large-cnn`).
 
 - **UI Improvements**:
