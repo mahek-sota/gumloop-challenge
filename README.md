@@ -32,4 +32,4 @@ This update combines backend processing (news extraction and summarization) with
 
 ## Developer Information
 - **Name:** Mahek Sota  
-- **Email:** maheksota@example.com  
+- **Email:** sotamahek@gmail.com  
